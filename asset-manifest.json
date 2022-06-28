@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/mammo2022/static/css/main.5a4df8b4.css",
+    "main.js": "/mammo2022/static/js/main.dde07e24.js",
+    "static/media/hero.png": "/mammo2022/static/media/hero.f30238ddb5ffd23e3ab6.png",
+    "index.html": "/mammo2022/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5a4df8b4.css",
+    "static/js/main.dde07e24.js"
+  ]
+}
