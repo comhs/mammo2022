@@ -170,12 +170,7 @@ h4 {
 
 p,
 li {
-   /* line-height: 22px; */
-   /* margin: 1rem 0; */
-   /* color: var(--black); */
    font-size: var(--baseFontSize);
-   /* font-weight: var(--weight-regular); */
-   /* font-size: 26px; */
    font-weight: var(--weight-light);
    line-height: 1.3;
    color: var(--textColor);
@@ -185,7 +180,7 @@ p.small {
    margin: 46px 0 76px 0px;
    font-size: var(--smallestFontSize);
    color: var(--black);
-   line-height: calc(var(--smallestFontSize)*1.25);
+   line-height: 1.25;
    font-weight: var(--weight-light);
    font-style: italic;
 }
@@ -363,7 +358,6 @@ p.about {
 
 .location-banner {
    min-width: 100%;
-   bottom: -100px;
    margin: 0 auto;
    padding: 20px 0;
    background: var(--blue-80);
@@ -386,9 +380,10 @@ p.about {
 .location {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: flex-start;
    width: 100%;
+   height: 100%;
 }
 
 .location>p,
@@ -398,6 +393,7 @@ p.about {
    padding: 0;
    white-space: pre-line;
    vertical-align: bottom;
+   text-align: left;
 }
 
 .footer>p {
@@ -575,6 +571,10 @@ div.thankyou-close-button {
 
 @media (max-width: 900px) {
 
+   :root {
+      --smallestFontSize: 1.2rem;
+   }
+
    h1,
    h2,
    h3,
@@ -628,8 +628,8 @@ div.thankyou-close-button {
       min-height: 35vh;
    }
 
-   div.container {
-      max-width: 90%;
+   div.container>* {
+      max-width: 85%;
    }
 
    .main-full,
@@ -708,11 +708,24 @@ div.thankyou-close-button {
       font-weight: var(--weight-regular);
       text-align: center;
    }
+
+   .location-banner>div {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+   }
+
+   .location-banner>* {
+      max-width: 80%;
+   }
 }
 
 /* * Mobile Device * */
 
 @media (max-width: 450px) {
+   :root {
+      --baseFontSize: 1.5rem;
+   }
+
    .hide-on-mobile {
       display: none;
    }
@@ -721,13 +734,30 @@ div.thankyou-close-button {
       font-size: 36px;
    }
 
+   h1.headline,
+   h1.headline-dark {
+      font-size: var(--heading-two);
+   }
+
+   h2.xl-heading {
+      font-size: 2rem;
+      font-weight: var(--weight-bold);
+      line-height: 1.2;
+   }
+
    .hero-image>img {
-      width: 150%;
+      width: 110%;
       margin: 0 auto;
    }
 
    .hero-phone {
-      font-size: 36px;
+      font-size: var(--heading-hero);
+   }
+
+   .xl-heading {
+      font-size: unset;
+      font-weight: unset;
+      line-height: unset;
    }
 
    .main-content>h2 {
@@ -767,5 +797,9 @@ div.thankyou-close-button {
 
    .modal-body>p {
       font-weight: var(--weight-light);
+   }
+
+   .location-banner>div {
+      grid-template-columns: 1fr;
    }
 }

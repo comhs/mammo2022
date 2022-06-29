@@ -5,8 +5,8 @@ import Disclaimer from './Disclaimer';
 // import ContentWithRightRail from './ContentWithRightRail';
 import BodyPanel from './BodyPanel';
 // import RightRail from './RightRail';
-// import Footer from './Footer';
 import Header from './Header';
+// import Bottom from './Bottom';
 import Hero from './Hero';
 import ContentFull from './ContentFull';
 import UnorderedList from './UnorderedList';
@@ -33,6 +33,7 @@ function Main() {
         <LocationBanner>There's a mammogram screening location close to you:</LocationBanner>
         <Disclaimer />
       </div>
+      {/* <Bottom /> */}
       {/* <script src="./Scripts"></script> */}
     </div>
   );
