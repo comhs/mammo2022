@@ -1,12 +1,8 @@
 import React from 'react';
 import "../styles/Main.css";
 import Disclaimer from './Disclaimer';
-// import Cards from './Cards';
-// import ContentWithRightRail from './ContentWithRightRail';
 import BodyPanel from './BodyPanel';
-// import RightRail from './RightRail';
 import Header from './Header';
-// import Bottom from './Bottom';
 import Hero from './Hero';
 import ContentFull from './ContentFull';
 import UnorderedList from './UnorderedList';
@@ -28,13 +24,9 @@ function Main() {
           </BodyPanel>
           <UnorderedList />
         </ContentFull>
-        {/* <Cards /> */}
-        {/* <Footer /> */}
         <LocationBanner>There's a mammogram screening location close to you:</LocationBanner>
         <Disclaimer />
       </div>
-      {/* <Bottom /> */}
-      {/* <script src="./Scripts"></script> */}
     </div>
   );
 }
