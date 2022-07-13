@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.73527aac.css",
-    "main.js": "/static/js/main.170be1d2.js",
-    "index.html": "/index.html"
+    "main.css": "/mammo2022/static/css/main.73527aac.css",
+    "main.js": "/mammo2022/static/js/main.170be1d2.js",
+    "index.html": "/mammo2022/index.html"
   },
   "entrypoints": [
     "static/css/main.73527aac.css",
