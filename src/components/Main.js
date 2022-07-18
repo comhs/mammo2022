@@ -12,7 +12,7 @@ function Main() {
   return (
     <div>
       <Header />
-      <Hero darkText="true" phone="(219) 703-2089">
+      <Hero darkText="true" phone="(219) 703-2089" ctaButton="false">
         To learn more<br />
         and schedule your<br />
         mammogram, call
