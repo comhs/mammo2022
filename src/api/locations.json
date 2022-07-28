@@ -18,6 +18,10 @@
       {
           "title": "St. Mary Medical Center,\nValparaiso Health Center, Valparaiso",
           "address": "3800 St. Mary Drive"
+      },
+      {
+        "title": "Community Stroke & Rehabilitation Center, Crown Point",
+        "address": "10215 Broadway Ave."
       }
   ]
 }
