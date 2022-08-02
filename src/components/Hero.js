@@ -19,7 +19,7 @@ function Hero({ children, phone, darkText, ctaButton }) {
       </div>
       <div className="hero-cta">
         <h1 className={darkText === "true" ? "headline-dark" : "headline"}>{children}</h1>
-        <a href={"tel:" + phone.replace(/[^0-9]/g, "")} className="hero-phone">{phone.replace(/\s/, '\u00A0')}</a>
+        <a href={"tel:" + phone.replace(/[^0-9]/g, "")} className="hero-phone">{phone.replace(/\s/, '\u00A0').replace(/-/,'\u2011')}</a>
         {
           ctaButton === "true" ?
             <div className="hero-button" id="mainBtn">Request&nbsp;an&nbsp;Appointment</div> :
