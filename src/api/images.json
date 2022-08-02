@@ -1,12 +1,12 @@
 {
   "images": [
     {
-      "url": "https://raw.githubusercontent.com/comhs/mammo2022/main/src/images/hero1.jpg",
-      "alt": "Image 1"
+      "url": "https://www.comhs.org/~/media/Images/Community-Healthcare-Only/Campaigns/Mammo/2022/hero1.png",
+      "alt": "Woman looking at a tablet with her daughter"
     },
     {
-      "url": "https://raw.githubusercontent.com/comhs/mammo2022/main/src/images/hero2.jpg",
-      "alt": "Image 2"
+      "url": "https://www.comhs.org/~/media/Images/Community-Healthcare-Only/Campaigns/Mammo/2022/hero2.png",
+      "alt": "Woman looking at her watch while on a run"
     }
   ]
 }
