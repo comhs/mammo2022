@@ -1,6 +1,6 @@
 {
     "name": "comhs-mammogram-landing-page",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "private": true,
     "homepage": "https://comhs.github.io/mammo2022/",
     "dependencies": {
