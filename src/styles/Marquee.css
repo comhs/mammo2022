@@ -1,0 +1,51 @@
+:root {
+  --scrollTime: 120;
+}
+
+.marquee {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background: var(--blue-20);
+  color: var(--white);
+  font-weight: var(--weight-medium);
+  font-size: var(--baseFontSize);
+  padding: 10px 0;
+  margin-top: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee .scroll {
+  display: flex;
+}
+
+.scrollingText-1 {
+  animation: scroll calc(var(--scrollTime) * 1s) linear infinite;
+  animation-delay: calc(var(--scrollTime) * -1s);
+}
+
+.scrollingText-2 {
+  animation: scroll2 calc(var(--scrollTime) * 1s) linear infinite;
+  animation-delay: calc(var(--scrollTime) * -.5s);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+  }
+}

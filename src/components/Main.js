@@ -7,6 +7,7 @@ import Hero from './Hero';
 import ContentFull from './ContentFull';
 import UnorderedList from './UnorderedList';
 import LocationBanner from './LocationBanner';
+import Marquee from './Marquee';
 
 function Main() {
   return (
@@ -17,6 +18,7 @@ function Main() {
         and schedule your<br />
         mammogram, call
       </Hero>
+      <Marquee />
       <div class="container">
         <ContentFull>
           <BodyPanel headline="Early detection saves lives. Call today.">
