@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/mammo2022/static/css/main.73527aac.css",
-    "main.js": "/mammo2022/static/js/main.98f5df12.js",
+    "main.css": "/mammo2022/static/css/main.e5f44de8.css",
+    "main.js": "/mammo2022/static/js/main.da01817a.js",
     "index.html": "/mammo2022/index.html"
   },
   "entrypoints": [
-    "static/css/main.73527aac.css",
-    "static/js/main.98f5df12.js"
+    "static/css/main.e5f44de8.css",
+    "static/js/main.da01817a.js"
   ]
 }
