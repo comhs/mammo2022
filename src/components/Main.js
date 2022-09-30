@@ -13,12 +13,12 @@ function Main() {
   return (
     <div>
       <Header />
+      <Marquee />
       <Hero darkText="true" phone="(219) 703-2089" ctaButton="false">
         To learn more<br />
         and schedule your<br />
         mammogram, call
       </Hero>
-      <Marquee />
       <div class="container">
         <ContentFull>
           <BodyPanel headline="Early detection saves lives. Call today.">

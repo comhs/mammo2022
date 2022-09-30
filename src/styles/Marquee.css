@@ -3,14 +3,16 @@
 }
 
 .marquee {
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 999;
   display: flex;
   width: 100%;
   background: var(--blue-20);
   color: var(--white);
   font-weight: var(--weight-medium);
-  font-size: var(--baseFontSize);
-  padding: 10px 0;
+  font-size: var(--heading-five);
+  padding: 5px 0;
   margin-top: 0px;
   overflow: hidden;
   white-space: nowrap;
