@@ -22,7 +22,7 @@ function Main() {
       <div class="container">
         <ContentFull>
           <BodyPanel headline="Early detection saves lives. Call today.">
-            Get screened for breast cancer at the provider that is most preferred for cancer care in Northwest Indiana.*
+            Get screened for breast cancer at the provider that is most preferred for cancer care in Northwest Indiana.**
           </BodyPanel>
           <UnorderedList />
         </ContentFull>
