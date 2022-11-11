@@ -1,6 +1,5 @@
 import React from 'react';
 import "../styles/Main.css";
-import Disclaimer from './Disclaimer';
 import BodyPanel from './BodyPanel';
 import Header from './Header';
 import Hero from './Hero';
@@ -27,7 +26,6 @@ function Main() {
           <UnorderedList />
         </ContentFull>
         <LocationBanner>There's a mammogram screening location close to you:</LocationBanner>
-        <Disclaimer />
       </div>
     </div>
   );
