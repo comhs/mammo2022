@@ -1,18 +1,17 @@
 import React from 'react';
 import "../styles/Main.css";
+import Disclaimer from './Disclaimer';
 import BodyPanel from './BodyPanel';
 import Header from './Header';
 import Hero from './Hero';
 import ContentFull from './ContentFull';
 import UnorderedList from './UnorderedList';
 import LocationBanner from './LocationBanner';
-import Marquee from './Marquee';
 
 function Main() {
   return (
     <div>
       <Header />
-      <Marquee />
       <Hero darkText="true" phone="(219) 703-2089" ctaButton="false">
         To learn more<br />
         and schedule your<br />
@@ -26,6 +25,7 @@ function Main() {
           <UnorderedList />
         </ContentFull>
         <LocationBanner>There's a mammogram screening location close to you:</LocationBanner>
+        <Disclaimer />
       </div>
     </div>
   );
